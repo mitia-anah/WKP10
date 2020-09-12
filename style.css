@@ -133,6 +133,16 @@ form {
     right: 5%;
 }
 
-::placeholder {
-    color: black;
+.to-delete {
+    width: 300px;
+    height: 100px;
+    background-color: rgba(255, 250, 0, 0.5);
+    border-radius: 6px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+
+.to-deleteEl {
+    text-align: center;
 }
